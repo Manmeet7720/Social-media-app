@@ -1,0 +1,100 @@
+/* .welcome-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+   */
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./social\ 4.jpg');
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This prevents the background image from scrolling with the content */
+  /* -webkit-background-size: cover; /* For older webkit browsers 
+  -moz-background-size: cover; For older Firefox */
+  -o-background-size: cover;
+   opacity: 0.9;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color to make content readable */
+    padding: 20px;
+    border-radius: 20px; /* Add some border radius for a softer look */
+  }
+  
+  header {
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    /* color:#4a5d64; */
+    color:#051c39;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color:#051c39;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    /* background-color: #ff003c; */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  .btn.signup {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .btn.login {
+    background-color: #f44336; /* Red */
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  
+  

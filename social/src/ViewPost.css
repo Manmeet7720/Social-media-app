@@ -1,0 +1,52 @@
+.view-post-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color to make content readable */
+    border-radius: 20px;
+  }
+  
+  .post-content {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1,h2{
+    color:#051c39;
+  }
+  .post-content p {
+    margin-bottom: 10px;
+  }
+  .button-exit {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Coral color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .button-exit:hover {
+    background-color: #d63426; /* Darker shade of coral on hover */
+  }
+  .button-create {
+    padding: 10px 20px;
+    background-color: #85d252; /* Coral color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-right: 260px;
+  }
+  
+  .button-create:hover {
+    background-color:#62ba28 ; /* Darker shade of coral on hover */
+  }
+  
